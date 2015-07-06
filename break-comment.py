@@ -1,9 +1,9 @@
 __author__ = 'royalfiish'
-magicNumber = 66
-step = 1
+magicNumber = 16
+
 for n in range(101):
     if n == magicNumber:
         print("Yes")
         break
-    step +=1
-print(step)
+    else:
+        print(n)
