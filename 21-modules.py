@@ -1,4 +1,4 @@
 __author__ = 'royalfiish'
-import test_foo
+import _test_foo
 
-test_foo.adding()
+_test_foo.adding()
