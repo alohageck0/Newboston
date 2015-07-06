@@ -1,2 +1,2 @@
 # Newboston
-Excersises from youtube
+Exercises from youtube
