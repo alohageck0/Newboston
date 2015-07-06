@@ -1,5 +1,5 @@
 __author__ = 'royalfiish'
-name = "lLucy"
+name = "Lucy"
 
 if name is 'Jonh':
     print("yes")
