@@ -1,4 +1,4 @@
 __author__ = 'royalfiish'
 
-for x in range(14):
+for x in range(4, 10):
     print(x)
