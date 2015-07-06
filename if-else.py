@@ -1,5 +1,5 @@
 __author__ = 'royalfiish'
-age = 13
+name = "Lucy"
 
-if age < 21:
-    print("No beer for you!")
+if name is 'Jonh':
+    print("yes")
