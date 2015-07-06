@@ -1,3 +1,5 @@
 step = 5
 
-while 
+while step < 10:
+    print(step)
+    step += 1
