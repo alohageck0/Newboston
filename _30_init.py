@@ -15,4 +15,3 @@ class fish:
 
 shark = fish(14)
 shark.checkEnergy()
-
