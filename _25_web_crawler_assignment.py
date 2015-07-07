@@ -16,10 +16,12 @@ soup = BeautifulSoup(plain, "html.parser")
 # get text from text area
 code = ''
 for link in soup.find_all('code'):
-    code = link.text
+    code = str(link)
     break
-print(code)
+arr = code.split('<br>')
+mod = arr[0]
+arr[0] = mod[6:]
 
-code_arr = code.split(r' ')
-for i in code_arr:
-    print(i)
+for i in arr:
+    if not re.search('trade', i):
+        print(i)
