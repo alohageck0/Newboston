@@ -10,8 +10,9 @@ class fish:
         print("I am swimming")
 
     def checkEnergy(self):
-        print(self.energy)
+        print("Ammount of energy is " + str(self.energy))
 
 
-shark = fish()
+shark = fish(14)
+shark.checkEnergy()
 
