@@ -1,7 +1,7 @@
 __author__ = 'royalfiish'
 
-class fish:
 
+class fish:
     def __init__(self, x):
         print("object created")
         self.energy = x

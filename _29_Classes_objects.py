@@ -1,4 +1,6 @@
 __author__ = 'royalfiish'
+
+
 class Enemy:
     life = 3
 

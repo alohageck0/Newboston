@@ -1,6 +1,7 @@
 __author__ = 'royalfiish'
-class fish:
 
+
+class fish:
     breed = "grouper"
 
     def __init__(self, x, name):
@@ -13,6 +14,7 @@ class fish:
 
     def checkEnergy(self):
         print("Ammount of energy is " + str(self.energy))
+
 
 fish1 = fish(10, 'Bobby')
 fish2 = fish(15, 'Garry')
